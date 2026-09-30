@@ -103,22 +103,7 @@ python src/main.py
 
 ---
 
-## 6. Evidencias de Funcionamiento
-
-Las capturas de pantalla de la ejecución y pruebas del programa están almacenadas dentro de la carpeta:
-
-```text
-docs/evidencias/
-```
-
-En esta sección se demuestra:
-1. La correcta lectura y procesamiento del archivo CSV en la capa Batch.
-2. La simulación y recepción de nuevos eventos transaccionales en la capa Speed.
-3. La consolidación correcta y exacta de las métricas en la capa Serving.
-
----
-
-## 7. Explicación de Resultados e Interpretación
+## 6. Explicación de Resultados e Interpretación
 
 Al ejecutar el programa, el sistema produce los siguientes resultados consolidando el flujo de datos:
 
@@ -130,7 +115,7 @@ Al ejecutar el programa, el sistema produce los siguientes resultados consolidan
 
 ---
 
-## 8. Conclusiones Individuales
+## 7. Conclusiones Individuales
 
 ### Conclusión - Integrante 1 (Tadeo)
 > "La implementación práctica de este proyecto me permitió comprender el valor fundamental de la Arquitectura Lambda en entornos de Big Data. La separación clara entre la capa Batch para el histórico y la capa Speed para la inmediatez resuelve eficientemente el trade-off entre precisión y velocidad. Aprendí que la clave de esta arquitectura radica en la inmutabilidad de los datos históricos y en cómo la Serving Layer permite consultar ambos mundos sin comprometer el rendimiento del sistema."
@@ -163,8 +148,4 @@ Proyecto_Arquitectura_Lambda/
 ├── data/                       # Datasets
 │   ├── historical_sales.csv    # Datos históricos
 │   └── README.md               # Instrucciones del dataset
-│
-└── docs/                       # Documentación técnica
-    ├── arquitectura.png        # Diagrama de arquitectura
-    └── evidencias/             # Evidencias de ejecución
 ```
